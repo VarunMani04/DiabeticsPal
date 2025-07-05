@@ -1,0 +1,34 @@
+Starting training process...
+Loading and preprocessing data...
+
+Raw data statistics:
+Columns: ['gender', 'age', 'hypertension', 'heart_disease', 'smoking_history', 'bmi', 'HbA1c_level', 'blood_glucose_level', 'diabetes']
+
+First few rows:
+   gender   age  hypertension  ...  HbA1c_level blood_glucose_level  diabetes
+0  Female  80.0             0  ...          6.6                 140         0
+1  Female  54.0             0  ...          6.6                  80         0
+2    Male  28.0             0  ...          5.7                 158         0
+3  Female  36.0             0  ...          5.0                 155         0
+4    Male  76.0             1  ...          4.8                 155         0
+
+[5 rows x 9 columns]
+
+Missing values:
+gender                 0
+age                    0
+hypertension           0
+heart_disease          0
+smoking_history        0
+bmi                    0
+HbA1c_level            0
+blood_glucose_level    0
+diabetes               0
+dtype: int64
+Data loaded successfully. Training samples: 13600
+Data scaling completed
+Converted to numpy arrays
+Converted to tensors
+Model initialized
+Early stopping at epoch 30 due to no improvement
+Final model saved with best test accuracy: 0.8871
