@@ -1,6 +1,5 @@
-# DS340 Diabetes Prediction App
-
-A web application that uses machine learning to predict diabetes risk based on user input.
+# DiabeticsPal 
+A web application that uses machine learning to predict diabetes risk based on user input. (In progress)
 
 ## Features
 
